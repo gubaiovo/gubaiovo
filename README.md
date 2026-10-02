@@ -16,7 +16,7 @@
   <a href="mailto:470014599@qq.com">联系我</a>
 </p>
 
-喜欢研究程序如何运行，也喜欢把日常遇到的问题写成工具。这里有我的安全实验、实用项目，以及在方块世界里折腾出来的一些东西。
+这里有我的安全实验、实用项目，以及在方块世界里折腾出来的一些东西。
 
 ## 正在探索
 
@@ -24,23 +24,14 @@
 - **实用工具与 AI 应用**：校园资料下载、Android 手写日记，以及与 Agent 协作的开发方式。
 - **Minecraft / MCDR**：生电、服务器和插件，让感兴趣的想法在游戏里跑起来。
 
-项目里用到：`Python` · `Go` · `Vue` · `Java` · `Rust` · `Docker` · `Linux`
+## 项目
 
-## 代表项目
-
-| 项目 | 做了什么 | 技术 |
+| 项目 | 这是什么 | 技术 |
 | --- | --- | --- |
 | [elf-seccomp-patcher](https://github.com/gubaiovo/elf-seccomp-patcher) | 面向 AWD 的 ELF 运行时保护注入工具，结合 seccomp-BPF 与 Landlock。 | Python · LIEF · C |
 | [JNU-EXAM-Downloader](https://github.com/gubaiovo/JNU-EXAM-Downloader) | JNU-EXAM 的配套桌面下载器，让校园资料获取更方便。 | Go · Wails · Vue |
-| [riddle-android](https://github.com/gubaiovo/riddle-android) | 将 [riddle](https://github.com/MaximeRivest/riddle) 迁移到 Android，在手写日记中与 AI 对话。 | Java · Android |
-| [PwnDockerTemplate](https://github.com/gubaiovo/PwnDockerTemplate) | 轻量的 Pwn 题目 Docker 部署模板。 | Docker · Linux |
-
-更多小工具：[DirTreeJson](https://github.com/gubaiovo/DirTreeJson) — 把本地目录树转换成结构化 JSON。
-
-### Fork 与协作探索
-
-- [syscage](https://github.com/gubaiovo/syscage) — seccomp 沙箱检查工具；基于 [Find-key/syscage](https://github.com/Find-key/syscage)，参与协作开发。
-- [MCTier](https://github.com/gubaiovo/MCTier) / [MCTier-Signaling-Server](https://github.com/gubaiovo/MCTier-Signaling-Server) — 围绕虚拟局域网组网与信令服务的探索；分别 Fork 自 [MCTier](https://github.com/pmh1314520/MCTier) 与 [信令服务器](https://github.com/pmh1314520/MCTier-Signaling-Server)。
+| [syscage](https://github.com/Find-key/syscage) | seccomp 沙箱检查工具。 | Rust |
+| [jyff-agent](https://github.com/JNSEC-OpenSource-Community/jyff-agent) | 面向信息安全的 Agent，支持 CTF 自动解题调度与代码审计。 | TypeScript · Node.js · React |
 
 <details>
 <summary>早期 Minecraft 插件（已归档）</summary>
@@ -50,9 +41,7 @@
 
 </details>
 
-## 博客选读
-
-记录研究过程、踩坑经历，也写一些关于技术与自己的想法。
+## 我的博客
 
 - [从 RCTF 看 x86-64 syscall](https://blog.gubaiovo.com/posts/7e474cc5.html) — 从一道题理解系统调用指令的行为。
 - [ARM 架构 PWN ret2libc 初探](https://blog.gubaiovo.com/posts/b988d4f6.html) — 第一次 ARM Pwn 实践，从环境配置到利用。
@@ -64,7 +53,7 @@
 ---
 
 <p align="center">
-  <sub>写一点代码，记一点想法，偶尔在方块世界里待很久。</sub>
+  <sub>写一点代码，记一点想法。</sub>
 </p>
 
 <!-- 更新项目时请核对公开状态、Fork 来源与归档状态；博客链接为人工精选。 -->
