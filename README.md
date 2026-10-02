@@ -1,16 +1,70 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=You+have+to+love+yourself.;I+belive+in+you.;Time+will+tell.)](https://git.io/typing-svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img alt="GuBai — Security, Tools & Minecraft. Keep curious, keep building." src="./assets/banner-light.svg" width="100%">
+</picture>
 
-# Hi there 💖![](https://img.shields.io/badge/licence-MIT-f39f7)
+<h1 align="center">你好，我是顾白 👋</h1>
 
-<div align="left">
-	<img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=gubaiovo&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
-</div>
-<div align="left">
-	<img height="137px" src="https://github-readme-stats.vercel.app/api?username=gubaiovo&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
-</div>
-🔒CTFer / 💤Sleeper / 💻MCDR Developer
+<p align="center">
+  人工智能在读 · 信息安全爱好者 · Minecraft 生电玩家
+</p>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=gubaiovo&theme=react)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<p align="center">
+  <a href="https://www.gubaiovo.com/">个人网站</a> ·
+  <a href="https://blog.gubaiovo.com/">技术博客</a> ·
+  <a href="mailto:470014599@qq.com">联系我</a>
+</p>
 
+喜欢研究程序如何运行，也喜欢把日常遇到的问题写成工具。这里有我的安全实验、实用项目，以及在方块世界里折腾出来的一些东西。
 
+## 正在探索
 
+- **Pwn / Linux 安全**：二进制利用、系统调用与沙箱机制，从理解原理到编写工具。
+- **实用工具与 AI 应用**：校园资料下载、Android 手写日记，以及与 Agent 协作的开发方式。
+- **Minecraft / MCDR**：生电、服务器和插件，让感兴趣的想法在游戏里跑起来。
+
+项目里用到：`Python` · `Go` · `Vue` · `Java` · `Rust` · `Docker` · `Linux`
+
+## 代表项目
+
+| 项目 | 做了什么 | 技术 |
+| --- | --- | --- |
+| [elf-seccomp-patcher](https://github.com/gubaiovo/elf-seccomp-patcher) | 面向 AWD 的 ELF 运行时保护注入工具，结合 seccomp-BPF 与 Landlock。 | Python · LIEF · C |
+| [JNU-EXAM-Downloader](https://github.com/gubaiovo/JNU-EXAM-Downloader) | JNU-EXAM 的配套桌面下载器，让校园资料获取更方便。 | Go · Wails · Vue |
+| [riddle-android](https://github.com/gubaiovo/riddle-android) | 将 [riddle](https://github.com/MaximeRivest/riddle) 迁移到 Android，在手写日记中与 AI 对话。 | Java · Android |
+| [PwnDockerTemplate](https://github.com/gubaiovo/PwnDockerTemplate) | 轻量的 Pwn 题目 Docker 部署模板。 | Docker · Linux |
+
+更多小工具：[DirTreeJson](https://github.com/gubaiovo/DirTreeJson) — 把本地目录树转换成结构化 JSON。
+
+### Fork 与协作探索
+
+- [syscage](https://github.com/gubaiovo/syscage) — seccomp 沙箱检查工具；基于 [Find-key/syscage](https://github.com/Find-key/syscage)，参与协作开发。
+- [MCTier](https://github.com/gubaiovo/MCTier) / [MCTier-Signaling-Server](https://github.com/gubaiovo/MCTier-Signaling-Server) — 围绕虚拟局域网组网与信令服务的探索；分别 Fork 自 [MCTier](https://github.com/pmh1314520/MCTier) 与 [信令服务器](https://github.com/pmh1314520/MCTier-Signaling-Server)。
+
+<details>
+<summary>早期 Minecraft 插件（已归档）</summary>
+
+- [MCDR_chat_with_ai](https://github.com/gubaiovo/MCDR_chat_with_ai) — 为 Minecraft 服务器接入 DeepSeek / OpenAI 兼容模型，支持聊天历史与角色预设。
+- [MCDR_uuid_api_remake](https://github.com/gubaiovo/MCDR_uuid_api_remake) — UUID API 重制版，为正版与离线服务器获取玩家 UUID。
+
+</details>
+
+## 博客选读
+
+记录研究过程、踩坑经历，也写一些关于技术与自己的想法。
+
+- [从 RCTF 看 x86-64 syscall](https://blog.gubaiovo.com/posts/7e474cc5.html) — 从一道题理解系统调用指令的行为。
+- [ARM 架构 PWN ret2libc 初探](https://blog.gubaiovo.com/posts/b988d4f6.html) — 第一次 ARM Pwn 实践，从环境配置到利用。
+- [如何优雅的部署 Hexo](https://blog.gubaiovo.com/posts/47ea0411.html) — 博客部署与工作流的折腾记录。
+- [关于近半年境况的杂谈](https://blog.gubaiovo.com/posts/351c2b95.html) — Agent 时代，对 CTF、学习与开发的一些思考。
+
+[阅读更多文章 →](https://blog.gubaiovo.com/archives/)
+
+---
+
+<p align="center">
+  <sub>写一点代码，记一点想法，偶尔在方块世界里待很久。</sub>
+</p>
+
+<!-- 更新项目时请核对公开状态、Fork 来源与归档状态；博客链接为人工精选。 -->
