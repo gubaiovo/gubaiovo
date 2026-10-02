@@ -4,56 +4,56 @@
   <img alt="GuBai — Security, Tools & Minecraft. Keep curious, keep building." src="./assets/banner-light.svg" width="100%">
 </picture>
 
-<h1 align="center">你好，我是顾白 👋</h1>
+<h1 align="center">Hi, I'm GuBai 👋</h1>
 
 <p align="center">
-  人工智能在读 · 信息安全爱好者 · Minecraft 生电玩家
+  AI student · Information security enthusiast · Technical Minecraft player
 </p>
 
 <p align="center">
-  <a href="https://www.gubaiovo.com/">个人网站</a> ·
-  <a href="https://blog.gubaiovo.com/">技术博客</a> ·
-  <a href="mailto:470014599@qq.com">联系我</a>
+  <a href="https://www.gubaiovo.com/">Website</a> ·
+  <a href="https://blog.gubaiovo.com/">Blog</a> ·
+  <a href="mailto:470014599@qq.com">Email</a>
 </p>
 
-这里有我的安全实验、实用项目，以及在方块世界里折腾出来的一些东西。
+Here you'll find my security experiments, practical projects, and a few things I've built in the world of blocks.
 
-## 正在探索
+## Currently Exploring
 
-- **Pwn / Linux 安全**：二进制利用、系统调用与沙箱机制，从理解原理到编写工具。
-- **实用工具与 AI 应用**：校园资料下载、Android 手写日记，以及与 Agent 协作的开发方式。
-- **Minecraft / MCDR**：生电、服务器和插件，让感兴趣的想法在游戏里跑起来。
+- **Pwn / Linux Security**: Binary exploitation, system calls, and sandboxing, from understanding the internals to building tools.
+- **Practical Tools & AI Applications**: Campus resource downloaders, handwritten journals on Android, and development with AI agents.
+- **Minecraft / MCDR**: Technical Minecraft, servers, and plugins that bring ideas into the game.
 
-## 项目
+## Projects
 
-| 项目 | 这是什么 | 技术 |
+| Project | What It Is | Tech |
 | --- | --- | --- |
-| [elf-seccomp-patcher](https://github.com/gubaiovo/elf-seccomp-patcher) | 面向 AWD 的 ELF 运行时保护注入工具，结合 seccomp-BPF 与 Landlock。 | Python · LIEF · C |
-| [JNU-EXAM-Downloader](https://github.com/gubaiovo/JNU-EXAM-Downloader) | JNU-EXAM 的配套桌面下载器，让校园资料获取更方便。 | Go · Wails · Vue |
-| [syscage](https://github.com/Find-key/syscage) | seccomp 沙箱检查工具。 | Rust |
-| [jyff-agent](https://github.com/JNSEC-OpenSource-Community/jyff-agent) | 面向信息安全的 Agent，支持 CTF 自动解题调度与代码审计。 | TypeScript · Node.js · React |
+| [elf-seccomp-patcher](https://github.com/gubaiovo/elf-seccomp-patcher) | An ELF runtime protection injector for AWD, combining seccomp-BPF and Landlock. | Python · LIEF · C |
+| [JNU-EXAM-Downloader](https://github.com/gubaiovo/JNU-EXAM-Downloader) | A desktop downloader for JNU-EXAM that makes campus resources easier to access. | Go · Wails · Vue |
+| [syscage](https://github.com/Find-key/syscage) | A tool for checking seccomp sandboxes. | Rust |
+| [jyff-agent](https://github.com/JNSEC-OpenSource-Community/jyff-agent) | An InfoSec agent for automated CTF solving and code auditing. | TypeScript · Node.js · React |
 
 <details>
-<summary>早期 Minecraft 插件（已归档）</summary>
+<summary>Early Minecraft Plugins (Archived)</summary>
 
-- [MCDR_chat_with_ai](https://github.com/gubaiovo/MCDR_chat_with_ai) — 为 Minecraft 服务器接入 DeepSeek / OpenAI 兼容模型，支持聊天历史与角色预设。
-- [MCDR_uuid_api_remake](https://github.com/gubaiovo/MCDR_uuid_api_remake) — UUID API 重制版，为正版与离线服务器获取玩家 UUID。
+- [MCDR_chat_with_ai](https://github.com/gubaiovo/MCDR_chat_with_ai) — Connects Minecraft servers to DeepSeek and OpenAI-compatible models, with chat history and role presets.
+- [MCDR_uuid_api_remake](https://github.com/gubaiovo/MCDR_uuid_api_remake) — A UUID API remake for player UUID lookup on online-mode and offline-mode servers.
 
 </details>
 
-## 我的博客
+## My Blog
 
-- [从 RCTF 看 x86-64 syscall](https://blog.gubaiovo.com/posts/7e474cc5.html) — 从一道题理解系统调用指令的行为。
-- [ARM 架构 PWN ret2libc 初探](https://blog.gubaiovo.com/posts/b988d4f6.html) — 第一次 ARM Pwn 实践，从环境配置到利用。
-- [如何优雅的部署 Hexo](https://blog.gubaiovo.com/posts/47ea0411.html) — 博客部署与工作流的折腾记录。
-- [关于近半年境况的杂谈](https://blog.gubaiovo.com/posts/351c2b95.html) — Agent 时代，对 CTF、学习与开发的一些思考。
+- [Understanding x86-64 syscall Through RCTF](https://blog.gubaiovo.com/posts/7e474cc5.html) — Understanding system call instruction behavior through a CTF challenge.
+- [An Introduction to ARM Pwn and ret2libc](https://blog.gubaiovo.com/posts/b988d4f6.html) — My first ARM Pwn experiment, from environment setup to exploitation.
+- [How to Deploy Hexo Elegantly](https://blog.gubaiovo.com/posts/47ea0411.html) — Notes on blog deployment and workflows.
+- [Reflections on the Past Six Months](https://blog.gubaiovo.com/posts/351c2b95.html) — Thoughts on CTF, learning, and development in the age of AI agents.
 
-[阅读更多文章 →](https://blog.gubaiovo.com/archives/)
+[Read more →](https://blog.gubaiovo.com/archives/)
 
 ---
 
 <p align="center">
-  <sub>写一点代码，记一点想法。</sub>
+  <sub>A little code, a few thoughts.</sub>
 </p>
 
-<!-- 更新项目时请核对公开状态、Fork 来源与归档状态；博客链接为人工精选。 -->
+<!-- When updating projects, verify visibility, upstream sources, and archive status. Blog links are hand-picked. -->
